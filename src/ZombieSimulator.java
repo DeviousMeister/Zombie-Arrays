@@ -74,7 +74,7 @@ public class ZombieSimulator {
         for (int i = 0; i < entities.length; ++i) {
             double x1 = entities[index][X];
             double y1 = entities[index][Y];
-            if (entities[i][TYPE] == 1) {
+            if (entities[i][TYPE] == ZOMBIE) {
                 double x2 = entities[i][X];
                 double y2 = entities[i][Y];
                 double xDifference = Math.pow((x2 - x1), 2.0);
